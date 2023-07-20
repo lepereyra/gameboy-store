@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Menu,
   MenuButton,
@@ -15,8 +16,8 @@ import CartWidget from "./CartWidget";
 
 const NavBar = () => {
   return (
-    <Flex minWidth="max-content" alignItems="center" gap="2">
-      <Box p="2">
+    <Flex minWidth="max-content" alignItems="center" gap="2" p="5">
+      <Box>
         <Heading size="md">GameBoy Store</Heading>
       </Box>
       <Spacer />
