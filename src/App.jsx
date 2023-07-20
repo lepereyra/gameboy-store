@@ -1,14 +1,13 @@
 import React from "react";
-import ComponenteA from "./components/ComponenteA";
-import ComponenteB from "./components/ComponenteB";
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 const App = () => {
   return (
-    <div>
-      <h1>componente App</h1>
-      <ComponenteA />
-      <ComponenteB />
-    </div>
+    <>
+      <NavBar />
+      <ItemListContainer greeting="Bienvenidos" />
+    </>
   );
 };
 
